@@ -9,7 +9,7 @@ body {
 }
 
 
-
+/* =========== FLEXIBLER ROW CONTAINER ============== */
 .card-list {
     display: flex; /* display flex wird verwendet weil es standardgemäß wie eine row funktioniert */
     padding: 3rem;
@@ -38,6 +38,8 @@ body {
     padding: 1.5rem;
 }
 
+
+/* ============= STACKED ANIMATION & SHADOW ========== */
 .card {
     /* ... */
 
@@ -61,6 +63,8 @@ body {
     margin-left: -130px;
 }
 
+
+/* ============== AUTHOR PICTURE ================ */ 
 .card-author {
     position: relative;
     display: grid;
@@ -89,6 +93,11 @@ body {
     stroke-width: 8;
     stroke-linecap: round;
 }
+
+
+
+/*  =========== GRADIENT COLOR ============== */ 
+
 .card-header {
     margin-bottom: auto;
 }
@@ -112,6 +121,9 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
+/* =========== TAGS =========== */ 
 .tags {
     margin: 1rem 0 2rem;
     padding: .5rem 0 1rem;
