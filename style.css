@@ -14,7 +14,7 @@ body {
     overflow-x: scroll; /*sorgt dafür dass die Karten überlappen */ 
 }
 
-.card {
+.side-card {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -27,7 +27,7 @@ body {
 
 
 /* ============= STACKED ANIMATION & SHADOW ========== */
-.card {
+.side-card {
     /* ... */
 
     border-radius: 16px;
@@ -37,16 +37,16 @@ body {
     transition: .2s;
 }
 
-.card:hover {
+.side-card:hover {
     transform: translateY(-1rem);
 }
 
-.card:hover~.card {
+.side-card:hover~.side-card {
     transform: translateX(130px);
 }
 
 
-.card:not(:first-child) {
+.side-card:not(:first-child) {
     margin-left: -130px;
 }
 
